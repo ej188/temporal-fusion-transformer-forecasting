@@ -1,0 +1,56 @@
+*.csv
+*.tsv
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.xlsx
+*.xls
+
+# Local environments and caches
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+env/
+*venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ML experiment outputs
+catboost_info/
+lightning_logs/
+runs/
+wandb/
+mlruns/
+final_models/
+tft_outputs/
+checkpoints/
+*.log
+*.out
+
+# Generated reports and plots
+*.pdf
+*_backtest.png
+backtest-results/
+predicted_vs_actual_backtest_results/
+mape_pies/
+forecast_performance_outputs/
+sarimax_outputs/
+
+# Local private data folders
+Cat_Data/
+data/
+raw/
+private/
+secrets/
+.env
+.env.*
