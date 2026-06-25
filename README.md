@@ -27,7 +27,7 @@ The next figure shows how error changes across the 6-month forecast horizon. Thi
 
 ![Performance metrics per forecast horizon](03_model_performance_evaluation/figures/performance_metrics_per_horizon.png)
 
-The plot is stored at:
+The plots are stored at:
 
 ```text
 03_model_performance_evaluation/figures/model_accuracy_tolerance_buckets.png
